@@ -1,4 +1,6 @@
-# ocp-diag-ssd-qualStorage diagnostic
+# ocp-diag-ssd-qual
+
+Storage diagnostic
 
 fio is a Linux utility that evaluates storage performance. This repo contains
 Python scripts that turn fio into an OCP-compliant diagnostic.
