@@ -1,0 +1,6 @@
+{
+	"test_steps": [
+		"iops_rand_wr_4kb_bs_256_qd.fio"
+	],
+	"benchmark_targets": "iops_wr_benchmark_targets.json"
+}

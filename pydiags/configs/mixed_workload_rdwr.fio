@@ -1,0 +1,16 @@
+[mixed_workload_randrdwr]
+blocksize=8k
+bwavgtime=5000
+direct=1
+end_fsync=0
+fsync=0
+ioengine=libaio
+iodepth=1024
+rw=randrw
+thread=1
+offset=0
+verify=meta
+do_verify=1
+verify_pattern=0x5a5a5a5a
+continue_on_error=io
+numjobs=1

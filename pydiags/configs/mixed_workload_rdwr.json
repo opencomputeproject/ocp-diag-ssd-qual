@@ -1,0 +1,7 @@
+
+{
+	"test_steps": [
+		"mixed_workload_rdwr.fio"
+	],
+	"benchmark_targets": "mixed_workload_iops_rdwr_benchmark_targets.json"
+}

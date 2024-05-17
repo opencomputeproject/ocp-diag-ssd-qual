@@ -1,0 +1,25 @@
+# Copyright 2024 Google LLC
+#
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file or at
+# https://opensource.org/licenses/MIT.
+
+[bandwidth_logical_writes-seq_wr_128kbs]
+blockalign=8k
+blocksize=128k
+bwavgtime=5000
+direct=1
+end_fsync=0
+fsync=0
+sync=0
+ioengine=libaio
+iodepth=256
+rw=write
+thread=4
+randrepeat=0
+norandommap
+do_verify=0
+continue_on_error=io
+numjobs=1
+group_reporting=0
+new_group

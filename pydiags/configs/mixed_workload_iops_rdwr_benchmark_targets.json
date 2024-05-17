@@ -1,0 +1,19 @@
+{
+    "basename": "Benchmark",
+    "workloads": [
+        {
+            "ioType": "randread",
+            "namespaceNum": 1,
+            "targets": {
+            },
+            "workloadNum": 1
+        },
+        {
+            "ioType": "randwrite",
+            "namespaceNum": 1,
+            "targets": {
+            },
+            "workloadNum": 2
+        }
+    ]
+}
