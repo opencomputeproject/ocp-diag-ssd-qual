@@ -1,0 +1,14 @@
+{
+    "basename": "Benchmark",
+    "workloads": [
+        {
+            "ioType": "randwrite",
+            "namespaceNum": 1,
+            "targets": {
+                "lat999thUsec": "15000",
+                "lat99thUsec": "5000"
+            },
+            "workloadNum": 1
+        }
+    ]
+}

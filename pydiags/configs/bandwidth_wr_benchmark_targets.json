@@ -1,0 +1,13 @@
+{
+    "basename": "Benchmark",
+    "workloads": [
+        {
+            "ioType": "write",
+            "namespaceNum": 1,
+            "targets": {
+                "bwMbytesPerSec": "70"
+            },
+            "workloadNum": 2
+        }
+    ]
+}

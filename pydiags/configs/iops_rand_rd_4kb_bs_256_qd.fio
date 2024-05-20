@@ -1,0 +1,17 @@
+# Copyright 2024 Google LLC
+#
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file or at
+# https://opensource.org/licenses/MIT.
+
+[iops_rand_rdwr_4kb_bs_256_qd]
+blocksize=4k
+iodepth=256
+direct=1
+ioengine=libaio
+group_reporting=0
+new_group
+time_based
+runtime=120
+thread=4
+rw=randread

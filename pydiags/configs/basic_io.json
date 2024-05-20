@@ -1,0 +1,8 @@
+{
+	"test_steps": [
+		"basic_io_logical_seq_wr_8kb_bs_1024_qd_known_pattern.fio",
+		"basic_io_logical_seq_rd_8kb_bs_1024_qd_known_pattern.fio",
+		"basic_io_logical_seq_rd_4kb_bs_1024_qd_known_pattern.fio",
+		"basic_io_logical_rand_rd_4kb_bs_1024_qd_known_pattern.fio"
+	]
+}

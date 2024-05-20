@@ -1,0 +1,13 @@
+{
+    "basename": "Benchmark",
+    "workloads": [
+        {
+            "ioType": "randread",
+            "namespaceNum": 1,
+            "targets": {
+                "lat999thUsec": "7000"
+            },
+            "workloadNum": 1
+        }
+    ]
+}

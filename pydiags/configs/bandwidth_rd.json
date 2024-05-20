@@ -1,0 +1,6 @@
+{
+	"test_steps": [
+		"bandwidth_logical_reads-seq_rd_128kbs.fio"
+	],
+	"benchmark_targets": "bandwidth_rd_benchmark_targets.json"
+}
